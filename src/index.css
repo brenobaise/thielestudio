@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1A1217;
+  --color-secondary: #BF737F;
+  --color-accent: #F2BABE;
+
+}
+
+body {
+  background: linear-gradient(to bottom,
+      rgba(89, 54, 59, 1) 17%,
+      /* 59363B at 17% */
+      rgba(191, 115, 127, 1) 45%,
+      /* BF737F at 45% */
+      rgba(89, 54, 59, 1) 89%
+      /* 59363B at 89% */
+    );
+  height: 100vh;
+}
+
+/* tailwind way of the custom gradient above */
+/* bg-gradient-to-b from-[#59363B] via-[#BF737F] to-[#59363B] */
