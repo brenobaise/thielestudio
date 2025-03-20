@@ -1,9 +1,24 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: Lobster;
+  src: url("./assets/Lobster-Regular.ttf");
+
+
+}
+
+@font-face {
+  font-family: Outfit;
+  src: url("./assets/Outfit-Regular.ttf")
+}
+
 @theme {
   --color-primary: #1A1217;
   --color-secondary: #BF737F;
   --color-accent: #F2BABE;
+
+  --font-lobster: Lobster, "sans-serif";
+  --font-outfit: Outfit, "sans-serif";
 
 }
 
@@ -16,6 +31,7 @@ body {
       rgba(89, 54, 59, 1) 89%
       /* 59363B at 89% */
     );
+  background-size: 100% 200vh;
   height: 100vh;
 }
 

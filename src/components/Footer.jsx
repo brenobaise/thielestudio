@@ -6,7 +6,7 @@ function Footer() {
                 <hr className="border-1 border-accent opacity-10 mb-10" />
                 <div className="flex flex-row items-center justify-between space-x-20 md:flex md:justify-center">
                     <img src="nobg-logo.png" className="w-32 object-cover  " alt="Thiele's Studio logo" />
-                    <ul className="flex flex-col text-accent text-light">
+                    <ul className="flex flex-col text-accent font-outfit">
                         <li>Link 1</li>
                         <li>Link 2</li>
                         <li>Link 3</li>
