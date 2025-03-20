@@ -19,7 +19,7 @@ function Carousel() {
     }, []);
 
     return (
-        <div className="relative w-full mt-10">
+        <div className="relative w-full mt-10 ">
             <div className="relative h-56  md:h-96 overflow-hidden rounded-lg">
                 {images.map((image, index) => (
                     <img
